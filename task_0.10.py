@@ -1,11 +1,13 @@
-def common_letters(string_one, string_two):
-    set_one = set(string_one.lower())
-    set_two = set(string_two.lower())
+def show_vowels(text_one,text_two):
+    text_one = text_one.lower()
+    text_two = text_two.lower()
 
-    letter = set_one & set_two
-    print("Common letters: " )
-    print(letter)
+    print("Common letters: ", end="")
+
+    for letter in text_one and text_two:
+        if letter in text_one and text_two:
+            print(letter, end="," )
+   
 
 
-common_letters("house","computers")
-
+show_vowels("house", "computers")
