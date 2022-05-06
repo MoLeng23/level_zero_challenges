@@ -6,7 +6,7 @@ def minutes_to_hours(minutes):
     elif calc_hours > 1:
         print(str(calc_hours) +" hours", ",", " ", end="")
     elif calc_hours == 0:
-        print(str(calc_hours) + " hours")
+        print(str(calc_hours) + " hours", "," , " ", end="")
     if calc_minutes == 1:
         print(str(calc_minutes) +" minute")
     elif calc_minutes > 1:
@@ -17,4 +17,5 @@ def minutes_to_hours(minutes):
 
 
 
-minutes_to_hours(128)
+minutes_to_hours(000)
+
