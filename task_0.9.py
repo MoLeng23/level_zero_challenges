@@ -1,10 +1,10 @@
 def show_vowels(text):
-    first_string = set(text.lower())
-    second_string = set("aeiou")
-    compare = first_string & second_string
-
-    print("Vowels: " ,end="" )
-    print(compare)
+    text = text.lower()
+    print("vowels: ", end="")
+    for vowel in "aeiou":
+        if vowel in text:
+            print(vowel,end="," )
+   
 
 
 show_vowels("Umuzi")
