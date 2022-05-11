@@ -1,4 +1,4 @@
-def greet(name):
-    return "Hello" + name
+def hello(name):
+    return "Hello " + name + "!"
 
-print(greet(" Tshepo!"))
+print(hello("Tshepo"))
