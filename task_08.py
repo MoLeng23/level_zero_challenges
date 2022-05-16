@@ -8,9 +8,9 @@ def minutes_to_hours(minutes):
     elif calc_hours >= 0:
         print(hours +" hours", ",", " ", end="")
     if calc_minutes == 1:
-        return mins +" minute"
+        print(mins +" minute")
     elif calc_minutes >= 0:
-       return mins +" minutes"
+       print(mins +" minutes")
 
 
 minutes_to_hours(60)
